@@ -1,0 +1,94 @@
+
+{
+    "basics" : {
+    "name" : "NJERI KAMAU",
+    "label": "Software Engineer",
+    "email": "nmurugikamau@gmail.com",
+    "phone": "(443) 878-4559",
+    "summary": "Software Engineer with a background in program managemente and in freelance illustration. Graduate of the Flat Iron’s Full- Stack Software Engineering Program with experience in web application development and object-oriented programming specializing in Ruby.",
+    "locations": {
+      "postalCode": "MD 21117",
+      "city": "Owings Mills",
+      "countryCode": "US",
+      "region": "Maryland"
+    },
+    "profiles": [{
+      "network": "Github",
+      "username": "njerimk",
+      "url": "https://github.com/njerimk"
+    }]
+  },
+    "technicalProfile": {
+      "languages": ["HTML", "CSS", "SQL", "JavaScript", "Ruby on Rails"],
+      "platformsAndFrameworks": ["Mac OSX", "ReactJS"],
+      "other" : ["Node.js", "Adobe Photoshop", "Adobe Illustrator"]
+    },
+    "technicalProjects": [{
+          "projectName": "Carton Co.",
+          "projectSummary": "A website for comic artists to upload comics for other users to read.",
+          "gitRepo": ["https://github.com/njerimk/carton_collective"],
+          "video": "https://www.youtube.com/watch?v=gZPPItakwJE",
+          "tasks": ["Generated back-end programming utilizing Rails (using the MVC pattern), Material UI, ReactJS and MySQL frameworks", "Built RESTful APIs that served data to the front-end based on dynamically chosen user inputs", "Designed and implemented database functionality for the comic web application"]
+    },
+
+          {"projectName": "Sailor Senshi Cards",
+            "projectSummary": "A matching card game application using Sailor Moon series as a theme.",
+            "gitRepo": ["https://github.com/njerimk/sailor-cards"],
+            "video": "https://www.youtube.com/watch?v=zJ36CZlbZ6g",
+            "tasks": ["Generated back-end programming utilizing Rails (using the MVC pattern), Material UI, ReactJS and PostgreSQL frameworks", "Built logic for the components in the front-end (using ReactJS) to serve as game logic design", "Designed front-end design utilizing CSS and bootstraps in ReactJS", "Developed and implemented back-end logic"]
+      },
+  
+          {"projectName": "The Garden",
+          "projectSummary": "An online/mobile journal app to help understand oneself deeper. Worked with 4 other developers to complete this app for a 36 hour hackathon following the theme, \"Nurture Your Differences\" ",
+          "gitRepo": ["https://github.com/jacobkagon/garden-frontend", "https://github.com/raaynaldo/garden-backend"],
+          "website": "https://the-nurturing-garden.vercel.app/",
+          "video": "https://www.youtube.com/watch?v=8OsY-vaGe3E",
+          "tasks": ["Assisted with development of API of goals and workbook features", "Worked on designing web components using figma", "Worked on web components using Next. Js framework and vanilla CSS for styling"]
+          }
+  ],
+    "work": [
+      
+      {
+        "company": "Deloitte",
+        "position": "Analyst, Software Engineer, Cloud Engineering",
+        "location": "London, England (Remote)",
+        "startDate": "2021-03",
+        "endDate": "2023-06",
+        "summary": ["Managed Deloitte’s Cloud Certification Program contributing to 4,000 new cloud certifications",  
+        "Worked on creating website assets for Deloitte using Azure", "Developed web applications to track cloud/program", "Working with knowledge with the Deloitte Cloud Engineering Offering (using Angular)",  
+        "Worked with generative AI applications, researched and reported findings of capabilities of proposed applications for possible use in the Cloud Engineering Offering at Deloitte (TeleportHQ, Google Firebase and AWS Amplify working with React)"]
+    },
+      
+      
+      {
+        "company": "Goodwill Industries International, Inc.",
+        "position": "Administrative Assistant, Leadership Programs",
+        "location": "Rockville, MD",
+        "startDate": "2018-08",
+        "endDate": "2020-05",
+        "summary": ["Manage Certified Executive Status applications and renewal", "Provide administrative and event logistical support for the CEO DGR Leadership Development Program, Culture Week, Learn and Lead program events, New CEO Orientation and several other GII related events"]
+    },
+    {
+        "company": "Bowie State University",
+        "position": "Program Management Specialist",
+        "location": "Bowie, MD",
+        "startDate": "2012-07",
+        "endDate": "2017-02",
+        "summary": ["Logo design for campaign projects, conception and design utilizing Adobe Illustrator CS6 and Adobe Photoshop CS6 to create flyers for upcoming events, invitation cards, and Direct Mail to be mailed to 30,000 individuals bi-yearly"]
+    }],
+    "education": [{
+        "degreeCertification" : "Full-Stack Software Engineering Program",
+        "school": "Flat Iron School",
+        "location":"Washington D.C.",
+        "startDate": "2020-10",
+        "endDate": "2021-01"
+    },
+    {
+        "degreeCertification": "Bachelor of Arts, Psychology",
+        "school": "University of Maryland, Baltimore County",
+        "location": "Baltimore, MD",
+        "startDate": "2009-08",
+        "endDate": "2015-06"
+    }]
+        
+}
