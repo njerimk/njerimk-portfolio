@@ -1,20 +1,20 @@
-#NjeriMK Portfolio App 
+# NjeriMK Portfolio App 
 
-##Table of Contents
-*[General info](#general-info)
-*[Technologies](#technologies)
-*[Setup](#setup)
+## Table of Contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-###General Info
+### General Info
 Website for to showcase projects being/have worked on (personal projects) and my resume for interested employers, etc.,
 
 
-###Technologies
+### Technologies
 Project is created with :
 * React version 18.2.0
 
 
-###Setup
+### Setup
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
