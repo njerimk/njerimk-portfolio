@@ -1,13 +1,11 @@
 import React from 'react'
-import NavBar from "./components/navbar"
-import CartonCo from "./Portfolio Site/Screen Shot 2021-03-05 at 11.07.57 AM.png"
-import SailorCards from "./Portfolio Site/SailorSenshiCover.png"
-import Github from "./Portfolio Site/25231.png"
-import Youtube from "./Portfolio Site/yt_icon.png"
+import CartonCo from "../Screen Shot 2021-03-05 at 11.07.57 AM.png"
+import SailorCards from "../SailorSenshiCover.png"
+// import Github from "./Portfolio Site/25231.png"
+// import Youtube from "./Portfolio Site/yt_icon.png"
 export default function Work() {
     return (
         <>
-        <NavBar/>
         <div className="grid grid-rows-5">
                 <div className="p-24 grid grid-flow-col block grid-col-5 grid-rows-1">
                     <div className="row-start-1 row-span-1 col-start-1 col-span-2 pb-4">
@@ -28,13 +26,13 @@ export default function Work() {
                             React.js  *   Material UI  *  Rails
                         </p> 
                         <a href="https://github.com/njerimk/sailor-cards">
-                            <img className="w-6 inline mr-4" src={Github} alt="github-icon"></img>
+                            {/* <img className="w-6 inline mr-4" src={Github} alt="github-icon"></img> */}
                         </a>
                         {/* <a href="https://github.com/njerimk/sailor-cards">
                             <img className="w-5 inline" src={External} alt="external-link" ></img>
                         </a> */}
                         <a href="https://youtu.be/gZPPItakwJE">
-                            <img className="w-8 inline" src={Youtube} alt="external-link" ></img>
+                            {/* <img className="w-8 inline" src={Youtube} alt="external-link" ></img> */}
                         </a>
                     </div>   
                     </div>
@@ -58,14 +56,14 @@ export default function Work() {
                         <p className="p-2 font-mono text-xs text-gray-400 tracking-widest mb-4">
                             React.js  *   Bootstraps  *  Rails
                         </p>
-                        <a href="https://github.com/njerimk/sailor-cards"><img className="mr-4 w-6 inline" src={Github} alt="sailor-cards-git-logo"/>
-                        </a>
+                        {/* <a href="https://github.com/njerimk/sailor-cards"><img className="mr-4 w-6 inline" src={Github} alt="sailor-cards-git-logo"/> */}
+                        {/* </a> */}
                         {/* <a href="https://github.com/njerimk/sailor-cards">
                             <img className="w-5 inline" src={External} alt="sailor-cards-presentation" />
                         </a> */}
-                        <a href="https://youtu.be/zJ36CZlbZ6g">
+                        {/* <a href="https://youtu.be/zJ36CZlbZ6g">
                             <img className="w-8 inline" src={Youtube} alt="external-link" ></img>
-                        </a>
+                        </a> */}
                     </div>   
                     </div>
                     <div className="ml-24 row-start-2 row-span-2 col-start-2 col-span-2 z-1 rounded border">
