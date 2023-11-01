@@ -6,22 +6,26 @@ import SailorCards from "../SailorSenshiCover.png"
 export default function Work() {
     return (
         <>
-        <div className="grid grid-rows-5">
-                <div className="p-24 grid grid-flow-col block grid-col-5 grid-rows-1">
-                    <div className="row-start-1 row-span-1 col-start-1 col-span-2 pb-4">
+        <div className="mt-10 grid grid-rows-5 grid-col-5" id="work-page">
+                <div className="grid grid-flow-col block h-1 p-10 mb-10">
+                    <div className="row-start-1 row-span-1 col-start-1 col-span-2">
                         <h1 className="font-mono inline mr-2 text-3xl text-pink-400 ">03.</h1>
-                        <h1 className="font-san inline text-4xl ">Work </h1> 
+                        <h1 className="font-san inline text-4xl">Work </h1> 
                     </div>
-                     <div className="text-right row-start-2 row-span-1 col-start-2 col-span-2 p-10 z-10">
+                     <div className="text-right row-start-2 row-span-2 col-start-2 col-span-2">
                         <h3 className="font-mono ml-2 text-pink-400"> Featured Project</h3>
                         <h3 className="font-san inline text-2xl">Carton Co.</h3>
                     </div>
-                    <div className="text-right p-2 mt-28 col-start-2 col-span-2 row-start-2 row-span-2 z-0">
+                    <div className="row-start-2 row-span-1 col-start-1 col-span-2 rounded border p-2">
+                         <img className="" src={CartonCo} alt="cartonco"></img>  
+                          
+                    </div>
+                    <div className="text-right p-2 mt-28 col-start-2 col-span-2 row-start-2 row-span-2">
                         <p className="ml-48 font-san text-xl bg-pink-300 w-98 text-white rounded border p-10">
                             A web app for comic artists to share their stories and create a fanbase and find
                             their community
                         </p>
-                        <div className="row-start-4 row-span-1 col-start-3 col-span-2 mx-50">
+                        <div className="row-start-4 row-span-1 col-start-2 col-span-1 mx-50">
                         <p className="p-2 font-mono text-xs text-gray-400 tracking-widest mb-4">
                             React.js  *   Material UI  *  Rails
                         </p> 
@@ -36,23 +40,23 @@ export default function Work() {
                         </a>
                     </div>   
                     </div>
-                    <div className="row-start-2 row-span-2 col-start-1 col-span-2 rounded border p-4">
-                         <img className="z-2" src={CartonCo} alt="cartonco"></img>  
-                          
-                    </div>
+                 
                     
                     
                 </div>
-                <div className="p-24 grid grid-flow-col block grid-col-5 grid-rows-1">
-                     <div className="text-left row-start-2 row-span-1 col-start-1 col-span-2 p-10 pl-2">
+                <div className="grid grid-flow-col block grid-col-2 grid-rows-2 p-10">
+                     <div className="text-left row-start-3 row-span-1 col-start-2 col-span-2">
                         <h3 className="font-mono text-pink-400"> Featured Project</h3>
                         <h3 className="font-san inline text-2xl">Sailor Senshi Cards</h3>
                     </div>
-                    <div className="text-left p-2 mt-28 col-start-1 col-span-2 row-start-2 row-span-2 z-0">
-                        <p className="mr-48 font-san text-xl bg-pink-300 w-98 text-white rounded border p-4">
+                    <div className="row-start-3 row-span-1 col-start-3 col-span-2 rounded border p-2">
+                         <img className="m-5" src={SailorCards} alt="sailorcards"></img>   
+                    </div>
+                    <div className="text-left mt-20 col-start-2 col-span-2 row-start-3 row-span-1">
+                        <p className="mr-48 font-san text-xl bg-pink-300 w-98 text-white rounded border p-5">
                             A matching card game with a Sailor Moon Theme
                         </p>
-                        <div className="row-start-3 row-span-1 col-start-1 col-span-1 pl-4">
+                        <div className="row-start-4 row-span-1 col-start-1 col-span-1">
                         <p className="p-2 font-mono text-xs text-gray-400 tracking-widest mb-4">
                             React.js  *   Bootstraps  *  Rails
                         </p>
@@ -66,9 +70,7 @@ export default function Work() {
                         </a> */}
                     </div>   
                     </div>
-                    <div className="ml-24 row-start-2 row-span-2 col-start-2 col-span-2 z-1 rounded border">
-                         <img className="z-2" src={SailorCards} alt="sailorcards"></img>   
-                    </div>
+                   
                     
 
                 </div>
